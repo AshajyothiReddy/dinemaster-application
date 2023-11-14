@@ -1,0 +1,12 @@
+2023-11-14 03:33:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table if not exists chef( id INT primary key AUTO_INCREMENT, firstName varchar(255), lastName varchar(255), expertise varchar(255), experienceYears INT, restaurantId INT, FOREIGN KEY [*]restaurantId references restaurant(id) )"; expected "("; SQL statement:
+create table if not exists chef( id INT primary key AUTO_INCREMENT, firstName varchar(255), lastName varchar(255), expertise varchar(255), experienceYears INT, restaurantId INT, FOREIGN KEY restaurantId references restaurant(id) ) [42001-214]
+2023-11-14 03:46:55 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table if not exists chef( id INT primary key AUTO_INCREMENT, firstName varchar(255), lastName varchar(255), expertise varchar(255), experienceYears INT, restaurantId INT, FOREIGN KEY [*]restaurantId references restaurant(id) )"; expected "("; SQL statement:
+create table if not exists chef( id INT primary key AUTO_INCREMENT, firstName varchar(255), lastName varchar(255), expertise varchar(255), experienceYears INT, restaurantId INT, FOREIGN KEY restaurantId references restaurant(id) ) [42001-214]
+2023-11-14 04:10:26 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table if not exists chef( id INT primary key AUTO_INCREMENT, firstName varchar(255), lastName varchar(255), expertise varchar(255), experienceYears INT, restaurantId INT, FOREIGN KEY [*]restaurantId references restaurant(id) )"; expected "("; SQL statement:
+create table if not exists chef( id INT primary key AUTO_INCREMENT, firstName varchar(255), lastName varchar(255), expertise varchar(255), experienceYears INT, restaurantId INT, FOREIGN KEY restaurantId references restaurant(id) ) [42001-214]
+2023-11-14 05:06:15 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table if not exists chef( id INT primary key AUTO_INCREMENT, firstName varchar(255), lastName varchar(255), expertise varchar(255), experienceYears INT, restaurantId INT, FOREIGN KEY [*]restaurantId references restaurant(id) )"; expected "("; SQL statement:
+create table if not exists chef( id INT primary key AUTO_INCREMENT, firstName varchar(255), lastName varchar(255), expertise varchar(255), experienceYears INT, restaurantId INT, FOREIGN KEY restaurantId references restaurant(id) ) [42001-214]
